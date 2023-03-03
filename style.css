@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*{
+    border: 1px solid black; 
+} */
+
+html , body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.menuIcon{
+    width: 10%;
+    margin-left: 5%;
+    margin-right: 40%;
+}
+.logoIcon{
+    width: 25%;
+    margin-right: 20%;
+}
+
+body {
+    height: 100vh;
+}
+
+.iconMenu{
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.navIcon{
+    width:10%;
+    margin-right: 5%;
+}
+
+.iconUser{
+    width:5%;
+
+}
+
+.iconFile{
+    width: 8%;
+}
+
+.navDisplay{
+    width: 100%;
+    background-color: #DC3545;
+    color:white;
+}
+
+
+
+h4{
+    font-size: 24px;
+}
+
+.navbarSide{
+    background-color: #FAFAFA;
+    border: 1px solid #EDEFF0;
+}
+
+.gastoSideDisplay{
+    background-color: white;
+}
+
+p > code{
+    color:black;
+}
+
+.formInfo{
+    background-color:#EDEFF0;
+    padding-top:5% !important;
+    padding-bottom: 5% !important;
+    padding-left: 15% !important;
+    padding-right: 15% !important;
+}
+
+.invoiceBox{
+
+    border-radius:4px; 
+    border: 1px dashed rgba(0,0,0,0.3); 
+    width: 100%;
+    height: 54%;
+}
+
+.invoiceHref{
+    font-size:14px;
+    text-decoration: underline;
+    color:#DC3545; 
+}
+
+.buttonCancelar{
+    background-color:white !important;
+    border-color:#DC3545 !important;
+    color:#DC3545 !important;
+}
+
+.navbutton>a{
+    text-decoration: none;
+    color:black !important;
+    padding: 5%;
+}
+
+.optSide{
+    padding-top: 25%;  
+}
+
+.buttonGuardar{
+    margin-left: "50%" !important;
+    background-color:#DC3545!important;
+    border-color:#DC3545 !important;
+    color:white !important;
+}
+
+.buttonSalir{
+    margin-top: 1% !important;
+    margin-bottom:1% !important;
+    background-color:#DC3545!important;
+    height: 65% !important;
+    border-color: white !important;
+
+}
+
+
+.gastoBorder{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-bottom: 3px solid #FAFAFA;
+
+}
+
+.textNavDisplay{
+    padding-left: 30%;
+}
+
+.footerP{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    border: 1px solid #FAFAFA;
+    background-color: #EDEFF0;
+    display: flex;
+    align-content: bottom;
+}
+
+.navbutton:hover {
+    border: 1px solid #F14764;
+}
+
+
